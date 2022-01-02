@@ -1,0 +1,5 @@
+services:
+  prediction:
+    build: ./prediction
+    ports:
+     - 8000:8000
