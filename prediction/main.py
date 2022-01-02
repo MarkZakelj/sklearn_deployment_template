@@ -22,7 +22,7 @@ class PredictionOut(BaseModel):
 
 
 app = FastAPI()
-model = load('rf_model.joblib')
+model = load('model.joblib')
 
 @app.get("/")
 def read_root():
